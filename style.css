@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fundo laranja e fonte padrão para todas as páginas */
+body {
+    font-family: Arial, sans-serif;
+    color: #000000;
+    line-height: 1.6;
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: orange; /* Fundo laranja para a página inicial */
+}
+
+/* Classe para página pessoal (com imagem de fundo) */
+.pagina-pessoal {
+    background-image: url('bee1.PNG'); /* Caminho correto para a imagem */
+    background-size: cover; /* Cobre toda a área */
+    background-position: center; /* Centraliza a imagem de fundo */
+}
+
+/* header */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Título do site */
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+/* Descrição do site */
+header p {
+    font-size: 1.2em;
+    color: #000000;
+}
+
+/* navegação */
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    background-color: #333;
+    padding: 10px 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+a:hover {
+    background-color: #555;
+}
+
+/* link com fundo de imagem */
+.link-com-fundo {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background-image: url('fundo-bee-swarm.PNG'); /* Caminho para a imagem de fundo */
+    background-size: cover;
+    background-position: center;
+    padding: 20px 40px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.link-com-fundo:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    transform: scale(1.05);
+}
+
+/* Estilo para as seções */
+section {
+    background-color: #fff;
+    color: #333;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Título das seções */
+section h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+/* Lista das tarefas favoritas */
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    margin-bottom: 15px;
+}
+
+/* Estilo do footer */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.1em;
+    color: #000000;
+}
